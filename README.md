@@ -5,10 +5,11 @@ DevFinder Lite is a simple web application to search and explore GitHub users an
 ## Features
 - Search GitHub users by username
 - Display user profile (avatar, bio, followers)
-- View list of repositories
+- Display top repositories
+- Sort repositories by stars or last updated
 - Show repository stars and language
 - Loading state handling
-- Error handling for invalid users
+- External links to Github profile and repositories
 - Keyboard-friendly UX (Enter to focus & search)
 
 ## Tech Stack
@@ -46,9 +47,13 @@ Then open https://localhost:3000
 - Conditional rendering in React
 - Building UI with Tailwind CSS
 
+## Api Used
+- https://api.github.com/users/{username}
+- https://api.github.com/users/{username}/repos
+
 ## Future Improvements
 - Pagination for repositories
-- Sorting repositories (stars, name)
+- Bookmark favorite users
 - Dark mode
 - Docker containerization
 
