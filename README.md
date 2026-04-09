@@ -38,7 +38,7 @@ npm run dev
 Then open https://localhost:3000
 
 ## Preview
-![Preview Images](./public/screenshot.png)
+![Preview Images](./public/preview.png)
 
 ## What I Learned
 - Reach state management with hooks
